@@ -1879,7 +1879,8 @@ let homeHtmlCache = undefined;
 
 function home(filter) {
 	console.log("home");
-	return {"code":1,"msg":"数据列表","page":1,"pagecount":2769,"limit":"20","total":55380,"list":[{"vod_id":89659,"vod_name":"因为是想写成歌","type_id":27,"type_name":"纪录片","vod_en":"yinweishixiangxiechengge","vod_time":"2026-01-27 23:49:07","vod_remarks":"全5集","vod_play_from":"360zy"},{"vod_id":89664,"vod_name":"冬日的什么呀，春日的什么呢","type_id":31,"type_name":"日本剧","vod_en":"dongrideshimeyachunrideshimene","vod_time":"2026-01-27 23:13:39","vod_remarks":"更新至02集","vod_play_from":"360zy"},{"vod_id":87482,"vod_name":"偶像疯子","type_id":15,"type_name":"韩国剧","vod_en":"ouxiangfengzi","vod_time":"2026-01-27 23:13:18","vod_remarks":"全12集","vod_play_from":"360zy"},{"vod_id":90123,"vod_name":"无形的本质","type_id":11,"type_name":"剧情片","vod_en":"wuxingdebenzhi","vod_time":"2026-01-27 23:01:09","vod_remarks":"正片","vod_play_from":"360zy"},{"vod_id":89662,"vod_name":"以猫饲爱","type_id":33,"type_name":"泰国剧","vod_en":"yimaosiai","vod_time":"2026-01-27 22:59:06","vod_remarks":"更新至02集","vod_play_from":"360zy"},{"vod_id":89649,"vod_name":"非常检控观粤语","type_id":14,"type_name":"香港剧","vod_en":"feichangjiankongguanyueyu","vod_time":"2026-01-27 22:47:11","vod_remarks":"更新至07集","vod_play_from":"360zy"},{"vod_id":89648,"vod_name":"非常检控观国语","type_id":14,"type_name":"香港剧","vod_en":"feichangjiankongguanguoyu","vod_time":"2026-01-27 22:46:50","vod_remarks":"更新至07集","vod_play_from":"360zy"},{"vod_id":88550,"vod_name":"春日狂热","type_id":15,"type_name":"韩国剧","vod_en":"chunrikuangre","vod_time":"2026-01-27 22:25:24","vod_remarks":"更新至08集","vod_play_from":"360zy"},{"vod_id":88629,"vod_name":"身为魔族的我想向勇者小队的可爱女孩告白","type_id":40,"type_name":"日韩动漫","vod_en":"shenweimozudewoxiangxiangyongzhexiaoduidekeainvhaigaobai","vod_time":"2026-01-27 22:25:07","vod_remarks":"更新至04集","vod_play_from":"360zy"},{"vod_id":88630,"vod_name":"午夜的倾心旋律","type_id":40,"type_name":"日韩动漫","vod_en":"wuyedeqingxinxuanlv","vod_time":"2026-01-27 22:24:45","vod_remarks":"更新至04集","vod_play_from":"360zy"},{"vod_id":88628,"vod_name":"异世界的安泰全看社畜","type_id":40,"type_name":"日韩动漫","vod_en":"yishijiedeantaiquankanshexu","vod_time":"2026-01-27 22:24:24","vod_remarks":"更新至04集","vod_play_from":"360zy"},{"vod_id":64358,"vod_name":"遮天","type_id":38,"type_name":"国产动漫","vod_en":"zhetian","vod_time":"2026-01-27 22:04:00","vod_remarks":"更新至146集","vod_play_from":"360zy"},{"vod_id":89663,"vod_name":"桃恋者","type_id":33,"type_name":"泰国剧","vod_en":"taolianzhe","vod_time":"2026-01-27 22:03:31","vod_remarks":"更新至02集","vod_play_from":"360zy"},{"vod_id":89865,"vod_name":"太平年","type_id":13,"type_name":"国产剧","vod_en":"taipingnian","vod_time":"2026-01-27 22:03:09","vod_remarks":"更新至12集","vod_play_from":"360zy"},{"vod_id":89733,"vod_name":"圣劳伦斯学院","type_id":15,"type_name":"韩国剧","vod_en":"shenglaolunsixueyuan","vod_time":"2026-01-27 21:55:08","vod_remarks":"更新至04集","vod_play_from":"360zy"},{"vod_id":80979,"vod_name":"绝妙心灵第二季","type_id":16,"type_name":"欧美剧","vod_en":"juemiaoxinlingdierji","vod_time":"2026-01-27 21:52:05","vod_remarks":"更新至13集","vod_play_from":"360zy"},{"vod_id":89306,"vod_name":"御赐小仵作2","type_id":13,"type_name":"国产剧","vod_en":"yucixiaowuzuo2","vod_time":"2026-01-27 21:28:10","vod_remarks":"更新至24集","vod_play_from":"360zy"},{"vod_id":89867,"vod_name":"喜羊羊与灰太狼之古古怪界有古怪","type_id":38,"type_name":"国产动漫","vod_en":"xiyangyangyuhuitailangzhiguguguaijieyouguguai","vod_time":"2026-01-27 21:27:50","vod_remarks":"更新至22集","vod_play_from":"360zy"},{"vod_id":65075,"vod_name":"万界独尊","type_id":38,"type_name":"国产动漫","vod_en":"wanjieduzun","vod_time":"2026-01-27 21:27:23","vod_remarks":"更新至403集","vod_play_from":"360zy"},{"vod_id":89926,"vod_name":"退后一步，爱上你","type_id":13,"type_name":"国产剧","vod_en":"tuihouyibuaishangni","vod_time":"2026-01-27 21:27:03","vod_remarks":"更新至07集","vod_play_from":"360zy"}],"class":[{"type_id":1,"type_pid":0,"type_name":"电影"},{"type_id":2,"type_pid":0,"type_name":"连续剧"},{"type_id":3,"type_pid":0,"type_name":"综艺"},{"type_id":4,"type_pid":0,"type_name":"动漫"},{"type_id":5,"type_pid":0,"type_name":"伦理片"},{"type_id":6,"type_pid":1,"type_name":"动作片"},{"type_id":7,"type_pid":1,"type_name":"喜剧片"},{"type_id":8,"type_pid":1,"type_name":"爱情片"},{"type_id":9,"type_pid":1,"type_name":"科幻片"},{"type_id":10,"type_pid":1,"type_name":"恐怖片"},{"type_id":11,"type_pid":1,"type_name":"剧情片"},{"type_id":12,"type_pid":1,"type_name":"战争片"},{"type_id":13,"type_pid":2,"type_name":"国产剧"},{"type_id":14,"type_pid":2,"type_name":"香港剧"},{"type_id":15,"type_pid":2,"type_name":"韩国剧"},{"type_id":16,"type_pid":2,"type_name":"欧美剧"},{"type_id":17,"type_pid":0,"type_name":"体育"},{"type_id":18,"type_pid":17,"type_name":"NBA"},{"type_id":20,"type_pid":1,"type_name":"惊悚片"},{"type_id":21,"type_pid":1,"type_name":"家庭篇"},{"type_id":22,"type_pid":1,"type_name":"古装片"},{"type_id":23,"type_pid":1,"type_name":"历史片"},{"type_id":24,"type_pid":1,"type_name":"悬疑片"},{"type_id":25,"type_pid":1,"type_name":"犯罪片"},{"type_id":26,"type_pid":1,"type_name":"灾难片"},{"type_id":27,"type_pid":1,"type_name":"纪录片"},{"type_id":28,"type_pid":1,"type_name":"短片"},{"type_id":29,"type_pid":1,"type_name":"动画片"},{"type_id":30,"type_pid":2,"type_name":"台湾剧"},{"type_id":31,"type_pid":2,"type_name":"日本剧"},{"type_id":32,"type_pid":2,"type_name":"海外剧"},{"type_id":33,"type_pid":2,"type_name":"泰国剧"},{"type_id":34,"type_pid":3,"type_name":"大陆综艺"},{"type_id":35,"type_pid":3,"type_name":"港台综艺"},{"type_id":36,"type_pid":3,"type_name":"日韩综艺"},{"type_id":37,"type_pid":3,"type_name":"欧美综艺"},{"type_id":38,"type_pid":4,"type_name":"国产动漫"},{"type_id":39,"type_pid":4,"type_name":"欧美动漫"},{"type_id":40,"type_pid":4,"type_name":"日韩动漫"},{"type_id":41,"type_pid":17,"type_name":"足球"},{"type_id":42,"type_pid":17,"type_name":"篮球"},{"type_id":43,"type_pid":1,"type_name":"未分类"},{"type_id":45,"type_pid":1,"type_name":"西部片"},{"type_id":46,"type_pid":0,"type_name":"爽文短剧"},{"type_id":47,"type_pid":46,"type_name":"现代都市"},{"type_id":48,"type_pid":46,"type_name":"脑洞悬疑"},{"type_id":49,"type_pid":46,"type_name":"年代穿越"},{"type_id":50,"type_pid":46,"type_name":"古装仙侠"},{"type_id":51,"type_pid":46,"type_name":"反转爽剧"},{"type_id":52,"type_pid":46,"type_name":"女频恋爱"},{"type_id":53,"type_pid":46,"type_name":"成长逆袭"}]}
+	var json = {"filters":{},"list":[],"class":[{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"interests","type_name":"京剧"},{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"hot_gaia","type_name":"黄梅戏"},{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"tv_hot","type_name":"相声"},{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"movie","type_name":"电影筛选"},{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"tv","type_name":"电视筛选"}]}
+    return JSON.stringify(json)
 }
 
 function homeVod(params) {
@@ -1890,49 +1891,89 @@ function homeVod(params) {
 		homeUrl: rule.homeUrl,
 		detailUrl: rule.detailUrl
 	};
-	return homeVodParse(homeVodObj)
+	var json = {"filters":{},"list":[],"class":[{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"interests","type_name":"京剧"},{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"hot_gaia","type_name":"黄梅戏"},{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"tv_hot","type_name":"相声"},{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"movie","type_name":"电影筛选"},{"activated":false,"circle":0,"filter":false,"filters":[],"land":0,"ratio":0.0,"type_id":"tv","type_name":"电视筛选"}]}
+    return JSON.stringify(json)
 }
 
-function category(tid, pg, filter, extend) {
-	let cateObj = {
-		url: rule.url,
-		"一级": rule.一级,
-		tid: tid,
-		pg: parseInt(pg),
-		filter: filter,
-		extend: extend
-	};
-	return categoryParse(cateObj)
+async function category(tid, pg, filter, extend) {
+    let pageList =  {
+      "page" : pg,
+      "pagecount" : 999,
+      "limit" : 20,
+      "total" : 999,
+      "list" : ""
+    }
+    // 获取第2页数据：page2.json
+    const videoList = await getVideoJsonByPage(parseInt(pg))
+      try {
+         pageList.list = JSON.parse(videoList);
+      } catch (error) {
+        console.error('videoJson数据转换json错误：', error.message);
+      }
+	return JSON.stringify(pageList)
 }
 
-function detail(vod_url) {
-	let orId = vod_url;
-	let fyclass = "";
-	log("orId:" + orId);
-	if (vod_url.indexOf("$") > -1) {
-		let tmp = vod_url.split("$");
-		fyclass = tmp[0];
-		vod_url = tmp[1]
-	}
-	let detailUrl = vod_url.split("@@")[0];
-	let url;
-	if (!detailUrl.startsWith("http") && !detailUrl.includes("/")) {
-		url = rule.detailUrl.replaceAll("fyid", detailUrl).replaceAll("fyclass", fyclass)
-	} else if (detailUrl.includes("/")) {
-		url = urljoin(rule.homeUrl, detailUrl)
-	} else {
-		url = detailUrl
-	}
-	let detailObj = {
-		orId: orId,
-		url: url,
-		"二级": rule.二级,
-		"二级访问前": rule.二级访问前,
-		detailUrl: detailUrl,
-		fyclass: fyclass,
-		tab_exclude: rule.tab_exclude
-	};
-	return detailParse(detailObj)
+/**
+ * 浏览器端获取videoJson目录下的page+页码.json数据
+ * @param {number} pageNum - 传入的页码（如1、2、3，必须为正整数）
+ * @returns {Promise<Array>} 返回JSON文件中的数组数据
+ */
+async function getVideoJsonByPage(pageNum) {
+  // 1. 页码合法性校验
+  if (!Number.isInteger(pageNum) || pageNum < 1) {
+    throw new Error('页码必须是大于等于1的正整数');
+  }
+  // 2. 拼接请求路径：videoJson/page+页码.json（根路径相对，可根据实际部署调整）
+  const jsonPath = "https://raw.githubusercontent.com/jackxiemr/okline/main"+`/videoJson/page${pageNum}.json`;
+  try {
+    // 3. 发起GET请求获取JSON文件
+    const response = await fetch(jsonPath,{method: "GET"});
+     console.error('获取response数据出错：',response);
+    return response;
+  } catch (error) {
+    console.error('获取videoJson数据出错：', error.message);
+    return ''; // 出错时返回空数组，避免后续代码报错
+  }
+}
+
+async function detail(vod_url) {
+    let IdUrl = vod_url.split("@@@")
+    var json = {
+         "list" : []
+       }
+
+   // 获取第2页数据：page2.json
+   const videoList = await getVideoJsonByPage(parseInt(IdUrl[1]))
+     try {
+        let pageList = JSON.parse(videoList);
+        let playerMap ;
+        for (let i = 0; i < pageList.length; i++) {
+           let videoMap =  pageList[i];
+
+           if(vod_url === videoMap.vod_id){
+               let vodPlayUrl = '';
+               playerMap =  videoMap.playerMap
+               let vodPlayList = playerMap.vodPlayList
+                 for (let i = 0; i < vodPlayList.length; i++) {
+                      let vodPlayMap =  vodPlayList[i];
+                       if(!(vodPlayUrl === '')){
+                          vodPlayUrl = vodPlayUrl+ '#'
+                       }
+                       vodPlayUrl = vodPlayMap.name + '$' + vodPlayMap.url
+                 }
+               playerMap.vod_play_url = vodPlayUrl
+               break;
+           }
+        }
+        json.list = [
+         {
+            ...playerMap
+         }]
+
+     } catch (error) {
+       console.error('videoJson数据转换json错误：', error.message);
+     }
+   return JSON.stringify(json)
 }
 
 function play(flag, id, flags) {
@@ -1941,7 +1982,12 @@ function play(flag, id, flags) {
 		flag: flag,
 		flags: flags
 	};
-	return playParse(playObj)
+	let json ={
+                "parse" : 0,
+                "url" : id,
+                "jx" : 0
+              }
+	return JSON.stringify(json)
 }
 
 function search(wd, quick, pg) {

@@ -29,7 +29,9 @@
         
     ],
     "sites": [
-      {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./dr_py/libs/drpy2.min2.js","ext":"./dr_py/js/drpy.js"}
+      {"key":"drpy_js_本地","name":"本地[js]","type":3,"api":"./dr_py/libs/drpy2.min2.js","ext":"./dr_py/js/drpy.js"},
+      {"key":"drpy_js_优酷","name":"优酷[js]","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./dr_py/js/优酷.js"},
+      {"key":"drpy_js_豆瓣","name":"豆瓣[js]","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./dr_py/js/drpy.js"}
     ],
     "parses": [
         //{"name":"Json并发","type":2,"url":"Parallel"},
