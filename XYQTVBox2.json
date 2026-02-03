@@ -18,9 +18,17 @@
             "url": "https://live.zbds.top/tv/iptv4.txt",
             "playerType": 1,
             "ua": "okhttp/3.8.1",
-            "timeout": 20,
+            "timeout": 50,
             "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "IPTV42",
+            "type":"0",
+            "pass": true,
+            "url": "https://live.zbds.top/tv/iptv4.txt",
+            "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
+            "logo": "https://epg.v1.mk/logo/{name}.png"
         },
         {
             "name": "ipv6",
