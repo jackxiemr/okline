@@ -1924,7 +1924,7 @@ async function getVideoJsonByPage(pageNum) {
     throw new Error('页码必须是大于等于1的正整数');
   }
   // 2. 拼接请求路径：videoJson/page+页码.json（根路径相对，可根据实际部署调整）
-  const jsonPath = "https://okline.pages.dev"+`/videoJson/page${pageNum}.json`;
+  const jsonPath = "https://raw.githubusercontent.com/jackxiemr/okline/main"+`/videoJson/page${pageNum}.json`;
   try {
     // 3. 发起GET请求获取JSON文件
     const response = await fetch(jsonPath,{method: "GET"});
